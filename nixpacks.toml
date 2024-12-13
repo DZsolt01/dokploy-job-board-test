@@ -1,8 +1,5 @@
 providers = ["...", "nodejs"]
 
-[phases.build]
-cmds = ["echo building!"]
-
 [phases.lint]
 cmds = ["npm run lint"]
 dependsOn = ["install"]
